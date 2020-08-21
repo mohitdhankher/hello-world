@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.aligns{
+  text-align: center;
+}
+
+.maincard{
+  min-height: 97vh;
+
+  margin: 2vh !important;
+  background-color: ghostwhite !important;
+}
+.maincard2{
+  overflow: scroll !important;
+  min-height: 107vh;
+  max-height: 119vh;
+  margin: 1vh !important;
+  background-color:cadetblue !important;
+  /* padding: 1vh; */
+}
+
+
+.col{
+  /* padding: 0.1vh; */
+}
+.car{
+  /* min-height: 38.5vh; */
+  margin: 1vh;
+  
+  align-items: stretch;
+
+}
+
+.colorTab {
+  color: white;
+}
+.logoA {
+  margin-left: auto;
+}
+.headerD {
+  background: #2B2D2F !important;
+}
+.active{
+  color: white !important;
+  /*margin-left: 10% !important;*/
+  font-weight: 600;
+  font-size: x-large;
+
+}
+.alignHome{
+  margin-left:1%;
+  color:darkgray;
+}
+.alignElastic{
+  margin-left:1%;
+  color:darkgray;
+}
+.alignGap{
+  margin-left:1%;
+  color:darkgray;
+}
+.alignThreshold{
+  margin-left:1%;
+  color:darkgray;
+}
+.alignDemand{
+  margin-left:1%;
+  color:darkgray;
+
+}
+.alignPost {
+  margin-left:1%;
+  color:darkgray;
+}
+.navColor {
+  /*background-color: #2B2D2F;*/
+  height: 7vh;
+  width:100%
+}
+.alignLogo {
+  text-align: end;
+}
+.button{
+  justify-content: space-evenly;
+}
+.buttoncolor{
+  background-color: greenyellow !important;
+  margin: 2vh !important;
+}
+.padCh{
+  padding-right: 4vh;
+}
