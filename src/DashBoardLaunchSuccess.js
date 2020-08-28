@@ -17,27 +17,7 @@ export function DashBoardLaunchSuccess(props) {
         datainitial: [], dataNotification: null, LandfromNotifications: null
     });
 
-    if (props.location.state) {
-        let fetchDatas = async () => {
-            let ApiUrl; // https://api.spaceXdata.com/v3/launches?limit=100&launch_success=true&land_success=true
-            if (props.location.state) {
-                if (props.location.state.fromNotifications === true) {
-                    ApiUrl = true
-
-                } else if (props.location.state.fromNotifications === false) {
-                    ApiUrl = false
-                } else
-                    ApiUrl = ''
-            }
-            const responses = await fetch(
-                `https://api.spacexdata.com/v3/launches?limit=100&launch_success=${ApiUrl}`
-            );
-            const datas = await responses.json();
-            setData({ ...data, datainitial: datas, dataall: datas });
-        };
-        fetchDatas();
-
-    }
+ 
 
     useEffect(() => {
         let fetchDatas = async () => {
